@@ -34,7 +34,6 @@ body {
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(architecture-building-city-410730.jpg) center center;
     background-size: cover;
     opacity: 0.95;
-
 }
 
 .main img {
@@ -475,6 +474,9 @@ body {
     background-size: cover;
     text-align: center;
 	padding-top: 5px; 
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
     .Servicos h3 {
         color: white;
