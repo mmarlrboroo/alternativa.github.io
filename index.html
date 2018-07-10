@@ -11,7 +11,7 @@
 	<header class="header headroom--not-bottom header--pinned headroom--top">
         <div class="container header__container">
             <nav class="nav">
-                <h2 class="nav__logo"><a href ="#main"><img src="153054411376892525.png" style = "width: 170px; height: 80px; position:relative; left:15%;" class="nav__logo-link"></img></a></h2>
+                <h2 class="nav__logo"><a href ="#main"><img src="logo.png" style = "width: 170px; height: 80px; position:relative; left:15%;" class="nav__logo-link"></img></a></h2>
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#services" class="nav__link">Recentes</a></li>
                     <li class="nav__item"><a href="#Servicos" class="nav__link">Serviços</a></li>
@@ -54,7 +54,7 @@ $(document).ready(function(){
 	
 	<section class = "main" id ="main">
    		 <div class="title"><p>ALTERNATIVA SUPERIOR</p></div>
-		 <div class="description">Construção e venda de imóveis</div>
+		 <div class="description">Engenharia, Construção e Venda de Imóveis</div>
 	</section>
 	
 	 <div class="info">
@@ -75,20 +75,19 @@ $(document).ready(function(){
 			  <!-- Full-width images with number and caption text -->
 			  <div class="mySlides fade">
 				<div class="numbertext">1 / 3</div>
-				<img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Building-Wallpapers-HD.jpg" style="width:100%;">
-				<div class="text">Caption Text</div>
+				<img src="1i.jpg" style="width:100%;">
+				<!--<div class="text">Caption Text</div> -->
 			  </div>
 
 			  <div class="mySlides fade">
 				<div class="numbertext">2 / 3</div>
-				<img src="http://www.iea.org/media/etp/tracking2017/Buildings.jpg" style="width:100%">
-				<div class="text">Caption Two</div>
+				<img src="2i.jpg" style="width:100%">
+
 			  </div>
 
 			  <div class="mySlides fade">
 				<div class="numbertext">3 / 3</div>
 				<img src="https://www.pixelstalk.net/wp-content/uploads/2016/10/Building-Wallpapers-HD.jpg" style="width:100%">
-				<div class="text">Caption Three</div>
 			  </div>
 
 			  <!-- Next and previous buttons -->
@@ -96,13 +95,6 @@ $(document).ready(function(){
 			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 			</div>
 			<br>
-
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span> 
-			  <span class="dot" onclick="currentSlide(2)"></span> 
-			  <span class="dot" onclick="currentSlide(3)"></span> 
-			</div>
 		
         </div>
 		<script>
@@ -122,17 +114,12 @@ $(document).ready(function(){
 			function showSlides(n) {
 			  var i;
 			  var slides = document.getElementsByClassName("mySlides");
-			  var dots = document.getElementsByClassName("dot");
 			  if (n > slides.length) {slideIndex = 1} 
 			  if (n < 1) {slideIndex = slides.length}
 			  for (i = 0; i < slides.length; i++) {
 				  slides[i].style.display = "none"; 
 			  }
-			  for (i = 0; i < dots.length; i++) {
-				  dots[i].className = dots[i].className.replace(" active", "");
-			  }
 			  slides[slideIndex-1].style.display = "block"; 
-			  dots[slideIndex-1].className += " active";
 			}
 	</script>
     
@@ -173,19 +160,16 @@ $(document).ready(function(){
 			  <div class="mySlides1 fade">
 				<div class="numbertext">1 / 3</div>
 				<img src="https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Backgrounds-Construction-HD-PIC-WPB003687-1.jpg" style="width:100%;">
-				<div class="text">Caption Text</div>
 			  </div>
 
 			  <div class="mySlides1 fade">
 				<div class="numbertext">2 / 3</div>
 				<img src="http://dslz2jptujwmm.cloudfront.net/wp-content/uploads/2016/12/Steel_construction.jpg" style="width:100%">
-				<div class="text">Caption Two</div>
 			  </div>
 
 			  <div class="mySlides1 fade">
 				<div class="numbertext">3 / 3</div>
 				<img src="https://www.uit.edu.au/wp-content/uploads/2016/08/Certificate-IV-in-Building-and-Construction.jpg" style="width:100%">
-				<div class="text">Caption Three</div>
 			  </div>
 
 			  <!-- Next and previous buttons -->
@@ -193,13 +177,6 @@ $(document).ready(function(){
 			  <a class="next" onclick="plusSlides1(1)">&#10095;</a>
 			</div>
 			<br>
-
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide1(1)"></span> 
-			  <span class="dot" onclick="currentSlide1(2)"></span> 
-			  <span class="dot" onclick="currentSlide1(3)"></span> 
-			</div>
 		
         </div>
 		<script>
@@ -219,17 +196,12 @@ $(document).ready(function(){
 			function showSlides1(n) {
 			  var i;
 			  var slides1 = document.getElementsByClassName("mySlides1");
-			  var dots1 = document.getElementsByClassName("dot");
 			  if (n > slides1.length) {slideIndex1 = 1} 
 			  if (n < 1) {slideIndex1 = slides1.length}
 			  for (i = 0; i < slides1.length; i++) {
 				  slides1[i].style.display = "none"; 
 			  }
-			  for (i = 0; i < dots1.length; i++) {
-				  dots1[i].className = dots1[i].className.replace(" active", "");
-			  }
 			  slides1[slideIndex1-1].style.display = "block"; 
-			  dots1[slideIndex1-1].className += " active";
 			}
 	</script>
 	
