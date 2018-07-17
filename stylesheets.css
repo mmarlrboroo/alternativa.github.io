@@ -414,13 +414,13 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1030px;
+  max-width: 1300px;
   position: relative;
   margin: auto;
 }
 
 .slideshow-container img {
-	height:600px;
+	height:800px;
 	
 }
 
