@@ -414,7 +414,7 @@ body {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1300px;
+  max-width: 1400px;
   position: relative;
   margin: auto;
 }
@@ -500,7 +500,7 @@ body {
   to {opacity: 1}
 }
 
-@media (min-width: 1315px) {
+@media (min-width: 1415px) {
 .slideshow-container img {
 	border-radius: 6px;
 }
