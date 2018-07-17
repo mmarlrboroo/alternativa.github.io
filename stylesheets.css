@@ -420,7 +420,7 @@ body {
 }
 
 .slideshow-container img {
-	height:800px;
+	height:auto;
 	
 }
 
@@ -500,7 +500,7 @@ body {
   to {opacity: 1}
 }
 
-@media (min-width: 1035px) {
+@media (min-width: 1315px) {
 .slideshow-container img {
 	border-radius: 6px;
 }
