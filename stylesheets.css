@@ -382,6 +382,40 @@ body {
 	right:3px;
 }
 
+@media (max-width: 570px) {
+	.sharel {
+	width:33px;
+	height:33px;
+	opacity: 0.6;
+	position:relative;
+	bottom: 8.5px;
+	right:3px;
+}
+.share {
+	width:30px;
+	height:30px;
+	opacity: 0.6;
+	position:relative;
+	bottom: 10px;
+	
+}
+
+.leftf p {
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+            width: 250px;
+            font: 400 16px/27px "Playfair Display";
+            color: #9e9e9e;
+            padding-top: 50px;
+        }
+		
+		.footer {
+			height:470px;
+		}
+	
+}
+
 .developed {
 	width: 100%;
 	height: 30px;
@@ -546,14 +580,14 @@ body {
 
 @media (max-width: 560px) {
 	.Servicos h1 {
-    padding-top:50px;
-	padding-bottom:50px;
+	padding-top:20px;
 	color:white;
 }
 }
 @media (max-width: 560px) {
 	.Servicos h2 {
-    padding-bottom:20px;
+    position:relative;
+	top:20px;
 }
 }
 
