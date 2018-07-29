@@ -100,14 +100,14 @@ body {
         margin-right: 0;
         padding-left: 50px;
 		text-decoration: none;
-        font: 600 14px/1 "Work Sans", sans-serif; } }
+        font: 600 14px/1 "Helvetica"; } }
     @media (min-width: 566px) {
       .header__phone {
         margin-right: 35px;
         padding-left: 20px;
 		text-decoration: none;
 		color: #e0e0e0;
-        font: 600 14px/1 "Work Sans", sans-serif; } }
+        font: 600 14px/1 "Helvetica"; } }
     .header__phone:hover {
       color: #c9c9c9; }
     .header__phone:before {
@@ -176,7 +176,7 @@ body {
     display: inline-block;
     margin-left: 20px; }
   .nav__link {
-    font: 600 14px/1 "Work Sans", sans-serif;
+    font: 600 14px/1 "Helvetica";
     color: #e0e0e0;
     transition: color 0.1s linear;
 	text-decoration:none;
@@ -208,13 +208,13 @@ body {
       padding: 40px 180px; } }
   .info__content {
     letter-spacing: 0.03em;
-    opacity: .8; }
+    opacity: .65; }
     @media (max-width: 565px) {
       .info__content {
-        font: 400 16px/30px "Playfair Display"; } }
+        font: 400 14px/30px "Helvetica";	} }
     @media (min-width: 566px) {
       .info__content {
-        font: 400 20px/36px "Playfair Display"; } }
+        font: 400 18px/36px "Helvetica"; } }
   .info__icon {
     display: inline-block;
     margin: 5px 10px 17px 10px;
@@ -251,10 +251,10 @@ body {
   }
   @media (max-width: 565px) {
     .headergroup {
-      font: 400 15px/22px "Open Sans", sans-serif; } }
+      font: 400 15px/22px "Helvetica"; } }
   @media (min-width: 566px) {
     .headergroup {
-      font: 400 20px/30px "Open Sans", sans-serif; } }
+      font: 400 20px/30px "Helvetica"; } }
   .headergroup__name {
     margin: 0 0 10px 0;
     padding: 0;
@@ -262,10 +262,10 @@ body {
     letter-spacing: 0.02em; }
     @media (max-width: 565px) {
       .headergroup__name {
-        font: 800 42px/48px "Work Sans", sans-serif; } }
+        font: 800 42px/48px "Arial Black"; } }
     @media (min-width: 566px) {
       .headergroup__name {
-        font: 800 48px/70px "Work Sans", sans-serif; } }
+        font: 800 48px/70px "Arial Black"; } }
   .headergroup__text {
     margin: 0 auto;
     padding: 0 10px;
@@ -284,13 +284,13 @@ body {
     color: #ffffff; }
   .headergroup__weak {
     display: block;
-    opacity: .6; }
+    opacity: .6;}
     @media (max-width: 565px) {
       .headergroup__weak {
-        font: 400 20px/1 "Bree Serif", serif; } }
+        font: 400 20px "Times New Roman", Times; } }
     @media (min-width: 566px) {
       .headergroup__weak {
-        font: 400 26px/1 "Bree Serif", serif; } }
+        font: 400 22px "Times New Roman", Times;	} }
   @media (max-width: 565px) {
     .headergroup--hero .headergroup__weak {
       margin-bottom: 10px;
@@ -331,12 +331,12 @@ body {
     .btn {
       width: 75px;	  
       padding: 7px 5px;
-      font: 550 10px/1 "Work Sans", sans-serif; } }
+      font: 550 10px "Helvetica"; } }
   @media (min-width: 566px) {
     .btn {
       width: 75px;
       padding: 10px;
-      font: 550 14px/1 "Work Sans", sans-serif; } }
+      font: 550 14px "Helvetica"; } }
   .btn:hover {
     background-color: #61d657;
 	border: 2px solid #61d657;
@@ -437,7 +437,7 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:20px;
-	font: 550 20px/1 "Work Sans", sans-serif; 
+	font: 550 20px/1 "Verdana"; 
 	color: #d8d8d8;
 }
 
@@ -445,7 +445,7 @@ body {
     padding-top:200px;
     font-size:60px;
     color:white;
-    font-family: "Playfair 	Display";
+    font-family: "Times New Roman", Times;
     text-align:center;
 	opacity:0.95;
 }
@@ -456,7 +456,7 @@ body {
 	bottom: 20px;
     color: #afafaf;
     opacity: 1;
-    font-family: "Playfair Display";
+    font-family: Helvetica;
     text-align: center;
     position:relative;
 }
@@ -521,7 +521,7 @@ body {
 .numbertext {
   color: #f2f2f2;
   font-size: 14px;
-  font-family:Arial;
+  font-family:"Helvetica";
   padding: 8px 12px;
   position: absolute;
   font-weight:bold;
@@ -578,46 +578,29 @@ body {
 	}
 }
 
-@media (max-width: 560px) {
-	.Servicos h1 {
-	padding-top:20px;
-	color:white;
+.Servicos .headergroup__name {
+		padding-top:40px;
+		padding-bottom:60px;
+		color: white;
 }
-}
-@media (max-width: 560px) {
-	.Servicos h2 {
-    position:relative;
-	top:20px;
-}
+
+.Servicos h3 {
+	font-size:42px;
 }
 
 
-    .Servicos h3 {
+    .Servicos h4 {
         color: white;
-		font: 550 18px/27px "Playfair Display";
+		font: 550 18px/27px "Helvetica";
 		opacity:0.75;
     }
 	
 	@media (max-width: 900px) {
-		.Servicos h3 {
-        font: 550 16px/27px "Playfair Display";
+		.Servicos h4 {
+        font: 550 16px/27px "Helvetica";
     }
 	}
 	
-	
-    .Servicos h2 {
-        color: #969696;
-        position: relative;
-        top:40px;
-		font:400 20px/1 "Bree Serif", serif;
-    }
-	@media (max-width: 565px) {
-      .Servicos h2 {
-        font: 400 20px/1 "Bree Serif", serif; } }
-    @media (min-width: 566px) {
-      .Servicos h2 {
-        font: 400 26px/1 "Bree Serif", serif;
-	 }
 	  
     .Servicos img{
         width:50px;
@@ -643,37 +626,6 @@ body {
 		padding-top: 0px;
 		width:100%;
 }
-}
-
-
-.Servicos h1 {
-    color: #e2e2e2;
-    padding-bottom: 30px;
-    padding-top: 7px;
-	text-transform: uppercase;
-    letter-spacing: 0.02em; 
-}
-
-	@media (max-width: 565px) {
-      .Servicos h1 {
-        font: 800 42px/48px "Work Sans", sans-serif;
-		color: #e2e2e2;	
-		} }
-    @media (min-width: 566px) {
-      .Servicos h1 {
-        font: 800 48px/70px "Work Sans", sans-serif;
-		color: #e2e2e2;} }
-
-.Servicos p {
-    color: #828282;
-    font-family:"Open Sans";
-    width: 70%;
-    text-align:center;
-    margin-left: auto;
-    margin-right:auto;
-    font-size: 16px;
-    font-weight:bold;
-    padding-top:180px;
 }
 
 
@@ -733,7 +685,7 @@ a {
             margin-left: auto;
             position: relative;
             width: 450px;
-            font: 400 18px/27px "Playfair Display";
+            font: 400 18px/27px "Helvetica";
             color: #9e9e9e;
             padding-top: 50px;
         }
@@ -745,7 +697,7 @@ a {
 }
 
     .leftf h3 {
-        font: 600 20px/1 "Work Sans", sans-serif;
+        font: 600 20px/1 "Helvetica";
         color: #636363;
         position: relative;
     }
