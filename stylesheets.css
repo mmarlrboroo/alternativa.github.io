@@ -708,3 +708,7 @@ a {
         padding-right: 20px;
         left: 10px;
     }
+	
+.headergroup__name  h3{
+	font-weight:800;
+}
